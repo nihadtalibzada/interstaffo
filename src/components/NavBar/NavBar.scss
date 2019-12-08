@@ -1,0 +1,31 @@
+@import "../MainPage/MainPage";
+
+.topNavBar {
+  background-color: $backgroundColor;
+}
+
+.navigation {
+  background-color: $backgroundColor;
+  height: 100%;
+  display: flex;
+}
+
+.logo {
+  width: 85px;
+  height: 60px;
+}
+
+.textField {
+  margin-top: 12px;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+  .textField{
+    font-size: smaller;
+  }
+}

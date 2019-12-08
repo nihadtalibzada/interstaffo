@@ -1,0 +1,43 @@
+@import "../MainPage/MainPage";
+
+.hero {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.mainContent {
+  display: flex;
+  background-color: $backgroundColor;
+}
+
+.accountText{
+  top: 120px;
+  left: 10%;
+  margin-bottom: 100px;
+  color: #fff;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.accountButton {
+  margin: 50px auto;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,29 @@
+.companyLogos {
+  width: 10%;
+  height: 90%;
+}
+
+.visionDiv {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.visionText {
+  font-size: 1.20em;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3%;
+}
+
+.textContent {
+  font-size: small;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .companyLogos {
+    width: 20%;
+  }
+  .visionDiv{
+    margin-left: auto;
+  }
+}

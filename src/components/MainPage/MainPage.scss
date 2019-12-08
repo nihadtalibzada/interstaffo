@@ -1,0 +1,15 @@
+$backgroundColor: coral;
+$footerColor: black;
+
+.pageContainer {
+  background-color: $backgroundColor;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  max-width: 1280px;
+}
+
+.footer {
+  background-color: $footerColor;
+}
